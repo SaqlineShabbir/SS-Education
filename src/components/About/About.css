@@ -1,0 +1,27 @@
+.about-image{
+    width: 600px;
+    height: 400px;
+    padding:30px;
+}
+.about{
+    margin-top:40px;
+   
+    height:80vh;
+}
+.profile img{
+    
+    height:400px;
+    width:100%;
+    padding: 10px;
+}
+.our-team{
+    margin-top: 100px;
+    height:100vh;
+    background-color: white;
+}
+.about-img{
+    margin-top:10px;
+}
+.about-text{
+    margin-top:40px;
+}

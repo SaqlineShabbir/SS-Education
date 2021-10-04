@@ -1,0 +1,105 @@
+[
+    {
+        "id":"1",
+        "name":" Web Devlopment ",
+        "price" : "100",
+        "time":"6",
+        "img":"https://www.onlinecoursereport.com/wp-content/uploads/2020/07/shutterstock_394793860-768x588.jpg",
+        "pera":"Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services"
+        
+    },
+    {
+        "id":"2",
+        "name":" Web Design ",
+        "price" : "192",
+        "time" :"5",
+        "img":"https://cdn.mos.cms.futurecdn.net/CT9xCjqrhnPD4ivB6B8Hqe-970-80.jpg.webp",
+        "pera":"Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design; authoring, including standardised code and proprietary software"
+
+
+    },
+    {
+        "id":"3",
+        "name":"SEO",
+        "price" : "185",
+         "time":"6",
+        "img":"https://thefridgeagency.com/wp-content/uploads/sites/3/2017/06/5_14_SEO_HightLevelPerspective_1000px.jpg",
+        "pera":"Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic rather than direct traffic or paid traffic"
+
+
+    },
+    {
+        "id":"4",
+        "name":"Graphics Design",
+        "price" : "132",
+        "time":"5",
+        "img":"http://designjanala.com/wp-content/uploads/2019/11/graphic-design.png",
+        "pera":"Graphic design is the profession and academic discipline whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives"
+  
+
+    },
+    {
+        "id":"5",
+        "name":"Degital Marketing",
+        "price" : "130",
+        "time" :"6",
+        "img":"https://d1m75rqqgidzqn.cloudfront.net/wp-data/2020/03/24164357/iStock-974512548.jpg",
+        "pera":"Digital marketing is the component of marketing that utilizes internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and services"
+
+
+    },
+    {
+        "id":"6",
+        "name":"Video Editing",
+        "price" : "116",
+        "time":"3",
+        "img":"https://listingdock.com/pics/000/759/177/62413e475482abde98499a4d7a121874.jpg",
+        "pera":"Video editing is the manipulation and arrangement of video shots. Video editing is used to structure and present all video information, including films and television shows, video advertisements and video essays"
+
+
+    },
+    {
+        "id":"7",
+        "name":"Block Chain",
+        "price" : "116",
+        "time":"6",
+        "img":"https://d11wkw82a69pyn.cloudfront.net/siteassets/images/blockchain_school_canvas_low.jpg",
+        "pera":"Blockchain.com is a cryptocurrency financial services company. The company began as the first Bitcoin blockchain explorer in 2011 and later created a cryptocurrency wallet that accounted for 28% of bitcoin transactions between 2012 and 2020 "
+
+
+    },
+    {
+        "id":"8",
+        "name":"Data Entry",
+        "price" : "112",
+        "time":"4",
+        "img":"https://static.jobdone.net/images_staging/6318/do-any-data-entry-work-as-ms-office-pdf-converting-app-translati-xuSm9s9qHy.jpg",
+        "pera":"Data entry is a type of clerical work that involves using various processes like typing and voice recording for entering data into computers. Data entry clerks work in a variety of industries, including healthcare, finance, retail and transportation"
+
+
+    },
+    {
+        "id":"9",
+        "name":"Android App",
+        "price" : "104",
+        "time" :"7",
+        "img":"https://unlike.net/wp-content/uploads/2016/02/Android-Applications.jpg",
+        "pera":"An Android app is a software application running on the Android platform. Because the Android platform is built for mobile devices, a typical Android app is designed for a smartphone or a tablet PC running on the Android OS"
+
+
+    },
+    {
+        "id":"10",
+        "name":"Photography",
+        "price" : "92",
+        "time":"4",
+        "img":"https://www.adorama.com/alc/wp-content/uploads/2018/07/shutterstock_170815865-825x465.jpg",
+        "pera":"Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film"
+
+
+    }
+
+
+    
+  
+]

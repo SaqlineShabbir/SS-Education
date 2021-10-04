@@ -1,0 +1,11 @@
+.my-card img{
+  height: 100%;
+}
+.img{
+    height: 100px;
+}
+.buttons{
+    border:none;
+    background-color: red;
+    border-radius:10px;
+}

@@ -1,0 +1,134 @@
+*{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    
+    margin:0px;
+    padding: 0px;
+    
+}
+section{
+    padding:100px;
+}
+
+
+
+
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner h2{
+    font-size: 3em;
+    color:black;
+    font-weight: 500;
+    line-height:1.5em;
+
+
+}
+.banner h2 span{
+    font-size:1.5em ;
+    font-weight: 700;
+}
+.banner h3{
+    font-size: 1.5em;
+    color:black;
+    font-weight: 500;
+    padding-top: 0px;
+}
+.btn{
+    position: relative;
+    background: #f32121;
+    display:inline-block;
+    color:#fff;
+    margin-top:20px ;
+    padding: 10px 30px ;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+.btn:hover{
+    color: black;
+    background-color: #fff ;
+}
+.header1{
+    display: flex;
+   justify-content: space-between;
+   background:  rgb(15, 15, 15);
+   text-align: centers;
+   z-index: 1000;
+   padding:30px 30px;
+   
+   
+   
+
+}
+header .logo{
+    color:#fff;
+    font-style: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding:15px;
+}
+
+
+
+.heading{
+    width:100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color:#111
+}
+.heading h2{
+     font-weight: 600;
+     font-size:30px ;
+}
+
+
+
+
+
+
+.heading.white {
+    color:#111;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+
+
+.button{
+ border: 1px solid gray;
+}
+
+
+
+.home-servise{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.btn-view{
+    border: 1px solid gray;
+   
+}
+.view-container{
+    margin-bottom:200px;
+}
