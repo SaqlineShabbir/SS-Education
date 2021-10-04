@@ -1,8 +1,8 @@
 import React from 'react';
-import './SingleService.css'
-const SingleService = (props) => {
+import './SingleCourse.css'
+const SingleCourse = (props) => {
     console.log(props)
-    const {name,img,pera,time,price} =props.service
+    const {name,img,pera,time,price} =props.course
     return (
         <div>
           
@@ -27,4 +27,4 @@ const SingleService = (props) => {
     );
 };
 
-export default SingleService;
+export default SingleCourse;

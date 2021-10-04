@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ServiceInHome = (props) => {
+const CourseInHome = (props) => {
     console.log(props)
-    const {img,name,pera,price,time}= props.service
+    const {img,name,pera,price,time}= props.course
     return (
         <div>
            <div style={{'height':'700px'}} className=" my-card card mx-3 my-3 mt-5 shadow-lg">
@@ -24,4 +24,4 @@ const ServiceInHome = (props) => {
     );
 };
 
-export default ServiceInHome;
+export default CourseInHome;

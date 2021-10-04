@@ -8,8 +8,8 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
 import Home from './components/Home/Home';
-import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
+import Courses from './components/Courses/Courses';
 function App() {
   return (
     <div className="App">
@@ -27,8 +27,8 @@ function App() {
          <Route exact path="/">
            <Home></Home>
          </Route>
-         <Route exact path="/services">
-           <Services></Services>
+         <Route exact path="/courses">
+           <Courses></Courses>
          </Route>
          <Route exact path="/contact">
            <Contact></Contact>

@@ -1,23 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import './Home.css'
-
-import first from '../images/icon1.png'
-import second from '../images/icon2.png'
-import third from '../images/icon3.png'
-import forth from '../images/icon4.png'
 import fifth from '../images/Online.jpg'
-import sixth from '../images/icon6.png'
+
 import { Link } from 'react-router-dom';
-import ServiceInHome from './ServiceInHome/ServiceInHome';
+import CourseInHome from './CourseInHome/CourseInHome';
 const Home = () => {
     
-    const [services, setServices] = useState([]);
+    const [courses, setCourses] = useState([]);
     useEffect(()=>{
         fetch('./service.JSON')
         .then(response => response.json())
-        .then(data => setServices(data))
+        .then(data => setCourses(data))
     }, [])
-     const myServices = services.slice(0,4)
+     const myCourses = courses.slice(0,4)
     return (
         <div>
   
@@ -32,19 +27,19 @@ const Home = () => {
 
    </section>
    <div className="text-center my-5">
-       <h1><span className="my-color">Our</span> Services</h1>
+       <h1><span className="my-color">Our</span> Courses</h1>
        <p className="px-5">We Offering you worlds best courses here and there are many focused teachers in our team. in 6 month we will try our best to teach you and help you to become someone from no one .Web development is the work involved in developing a Web site for the Internet or an intranet.  Web design encompasses many different skills and disciplines in the production and maintenance of websites we will teach you web devlopment here. The different areas of web design.Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.Graphic design is the profession and academic discipline whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives </p>
    </div>
    
    <div className="home-servise">
 
    {
-        myServices.map(service =><ServiceInHome 
-            key ={service.id}
-            service={service}
+        myCourses.map(course =><CourseInHome 
+            key ={course.id}
+            course={course}
             >
 
-        </ServiceInHome>)
+        </CourseInHome>)
       }
   </div>
   <div className="text-center view-container">
