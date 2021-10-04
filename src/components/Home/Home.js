@@ -43,7 +43,7 @@ const Home = () => {
       }
   </div>
   <div className="text-center view-container">
-  <Link to="/services"  className="btn btn-view text-center my-5">View Details</Link>
+  <Link to="/courses"  className="btn btn-view text-center my-5">View Details</Link>
   </div>
    </div>
 
