@@ -1,11 +1,13 @@
 .contact{
     background:white;
-    height:80vh;
+    height:150vh;
     margin-top: 100px;
 
 }
-
-
+.contact-text{
+padding-left: 100px;
+padding-right: 100px;
+}
 
 .form-box{
     margin-top:30px;
@@ -58,4 +60,21 @@
 .content{
     display: flex;
     justify-content: space-between;
+}
+.hr{
+    margin-left: 400px;
+    margin-bottom: 150px;
+}
+.visit{
+margin:200px;
+}
+.visit-texts{
+    padding:50px;
+    margin-top: 30px;
+
+}
+.contact-img{
+    height: 400px;
+    width: 400px;
+    border-radius: 100px;
 }
