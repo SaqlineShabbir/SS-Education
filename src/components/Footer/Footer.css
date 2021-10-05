@@ -1,3 +1,7 @@
 .footer{
-    background-color: rgba(255, 51, 0, 0.041);
+    background-color:white;
+}
+.footer-bottom{
+    background-color: rgba(255, 0, 0, 0.705);
+
 }

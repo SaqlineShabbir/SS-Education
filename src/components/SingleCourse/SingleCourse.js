@@ -1,7 +1,7 @@
 import React from 'react';
 import './SingleCourse.css'
 const SingleCourse = (props) => {
-    console.log(props)
+   
     const {name,img,pera,time,price} =props.course
     return (
         <div>
@@ -18,7 +18,7 @@ const SingleCourse = (props) => {
       
      
 
-      <button  className="buttons px-3 py-1 text-white"><i className="fas fa-calculator"></i>Purchase</button>
+      <button  className="buttons px-3 py-1 text-white"><i className="fas fa-money-check-alt"></i> Purchase</button>
       
     </div>
 
